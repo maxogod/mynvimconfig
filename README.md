@@ -8,8 +8,16 @@ just some config
 ## Setup
 
 * Clone this repo into /.config/nvim (different for windows)
-* Install neovim
-* Clone packer
+* Install neovim with snap (>= 0.10.0)
+* Clone packer (https://github.com/wbthomason/packer.nvim)
 * :so packer.lua and :PackerSync
 * :Mason for lsps and linters
 * :checkhealth for troubleshooting
+
+Add alias for nvim:
+nvim ~/.bashrc
+
+type `alias vim='nvim'` at the end of the file
+
+source ~/.bashrc
+
